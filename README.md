@@ -186,12 +186,6 @@ module.exports = {
 }
 ```
 
-## Step 4
-
-```
-
-```
-
 ## Step etc
 
 - https://react-icons.github.io/react-icons/
