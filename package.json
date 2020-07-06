@@ -1,0 +1,49 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "npm run clean && webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "cleanCache": "rm -rf node_modules/.cache/hard-source/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssola129/dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssola129/dashboard/issues"
+  },
+  "homepage": "https://github.com/ssola129/dashboard#readme",
+  "dependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
+    "file-loader": "^6.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1",
+    "url-loader": "^4.1.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.6",
+    "typescript-plugin-styled-components": "^1.4.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
