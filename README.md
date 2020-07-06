@@ -53,6 +53,7 @@ $ npm typescript —init
 	<head>
 		<meta charset=“UTF-8” />
     <title>Hello</title>
+    <base href="/" />
 	</head>
 	<body>
 		<div id=“app”></div>
@@ -129,6 +130,7 @@ module.exports = {
   devServer: {
     contentBase: './',
     publicPath: '/dist',
+    historyApiFallback: true,
   },
   resolve: {
     modules: [resolve(__dirname, 'src'), resolve(__dirname, 'node_modules')],
