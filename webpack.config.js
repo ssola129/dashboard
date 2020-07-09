@@ -19,6 +19,9 @@ module.exports = {
     contentBase: './',
     publicPath: '/dist',
     historyApiFallback: true,
+    // port: 8080,
+    // compress: true,
+    // hot: true,
   },
   resolve: {
     modules: [resolve(__dirname, 'src'), resolve(__dirname, 'node_modules')],
